@@ -2,37 +2,27 @@
 <html lang="en-US">
 	<head>
 		<style type="text/css">
-			body {
-				background-image: url("http://wallfortuner.com/wp-content/uploads/2014/08/Background-Texture-92.jpg");
-				margin-top: 120px;
-			}
-
-			p {
-				font-family: "Times New Roman", times, Serif;
-				font-size:large;
-			}
-            div {
-				text-align:center;
-			}
-			.tabs {
-				position: relative;
-				width:100%;
-                display:block;
-				align-self: center;
-			}
-
+		body {
+    background-image: url("http://wallfortuner.com/wp-content/uploads/2014/08/Background-Texture-92.jpg");
+}
+	p {
+    font-family: "Times New Roman", times, Serif;
+	font-size:large;
+	}
+            .tabs {
+                width:100%;
+                display:inline-block;
+            }
             .tab-links:after {
-                display:flex;
+                display:block;
                 clear:both;
                 content:'';
             }
-
             .tab-links li {
                 margin:0px 5px;
                 float:left;
                 list-style:none;
             }
-
             .tab-links a {
                 padding:9px 15px;
                 display:inline-block;
@@ -43,17 +33,14 @@
                 color:#4c4c4c;
                 transition:all linear 0.15s;
             }
-
             .tab-links a:hover {
                 background:#a7cce5;
                 text-decoration:none;
             }
-
             li.active a, li.active a:hover {
-                background:transparent;
+                background:#fff;
                 color:#4c4c4c;
             }
-
             .tab-content {
                 padding:15px;
                 border-radius:3px;
@@ -61,15 +48,12 @@
                 background:;
 				text-align: center;
 			}
-
             .tab {
                 display:none;
             }
-
             .tab.active {
-                display:inline-block;
-				align-self: center;
-			}
+                display:block;
+            }
 	</style>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
@@ -81,8 +65,8 @@
                     // Show/Hide Tabs
 //                    jQuery('.tabs ' + currentAttrValue).show().siblings().hide();
  
-                    jQuery('.tabs ' + currentAttrValue).siblings().slideLeft(800);
-                    jQuery('.tabs ' + currentAttrValue).delay(800).slideRight(800);
+                    jQuery('.tabs ' + currentAttrValue).siblings().slideUp(400);
+                    jQuery('.tabs ' + currentAttrValue).delay(400).slideDown(400);
  
                     // Change/remove current tab to active
                     jQuery(this).parent('li').addClass('active').siblings().removeClass('active');
@@ -98,7 +82,7 @@
  
                 titleElem.innerHTML = newTitle;
             }
-		</script>
+        </script>
 			<title id="title">Home</title>
 			
 	</head>
@@ -144,7 +128,7 @@
 					<h2>How has this technology impacted society?</h2>
 					<p>The technology I chose has impacted society in many ways because for one I would not be taking this class if it had not been. It also has advanced many scientific/medical discoveries and been the foundation of modern society.</p>
 					<h2>Interview with a friend</h2>
-					<p>I again interviewed my Schools IT guy, Mr. Lewis. Mr. Lewis would not be working as our schools IT coordinator if it were not for the computer. Like me Mr. Lewis's life revolves around computers, as the IT guy he has to mess around with computers all day. Computers also contributed to modern airplanes, and being that he is form a different country he again would not be here if it weren't for computers.</p>
+					<p>I again interviewed my Schools IT guy, Mr. Lewis. Mr. Lewis would not be working as our schools IT coordinator if it were not for the computer. Like me Mr. Lewiss life revolves around computers, as the IT guy he has to mess around with computers all day. Computers also contributed to modern airplanes, and being that he is form a different country he again would not be here if it weren't for computers.</p>
 					<h2>How would I sell it?</h2>
 					<p>I would try and sell this technology persuading people that it will revolutionize the world, It will eventually make life easier and make the world a better place.</p>
                 </div>
@@ -155,9 +139,9 @@
 					<h2>The most important technologic discovery</h2>
                     <p>I chose the creation of the World Wide Web as my most important creation because it works as a communication device for the modern world. Out of the other technologies invented in this era I chose the World Wide Web because it has a lot of meaning to me and many other people.</p>
 					<h2>The person(s) responsible for brining this technology to the public</h2>
-					<p>Berners-Lee and Robert Cailliau are responsible for bringing this technology into the world. Both men were computer scientists and one of them worked for CERN.</p>
+					<p>Berners-Lee and Robert Cailliau are responsible for brining this technology into the world. Both men were computer scientists, One of whom worked for CERN.</p>
 					<h2>How has this technology impacted society?</h2>
-					<p>The World Wide Web controls most of modern day life as we know, it's the fastest form of communication as well as being the most used.</p>
+					<p>The World Wide Web controls most of modern day life as we know, its the fastest form of communication as well as being the most used.</p>
 					<h2>Interview with a friend</h2>
 					<p>I again Interviewed my schools IT coordinator for this question, Being that he is an It coordinator he uses the Internet and Internet based software in everyday use. Without the Internet Our IT guy would not have his job because computers would probably not be as popular as they are today.</p>
 					<h2>How would I sell it?</h2>
@@ -170,10 +154,10 @@
 					<li>"Wright Brothers." <i>Wikipedia</i>. Wikimedia Foundation, 10 Apr. 2014. Web. 6 Oct. 2014.</li>
 					<H1>1940-69</H1>
 					<li>Bellis, Mary. "John Atanasoff and Clifford Berry - The First All Electronic Computer."About.com Inventors. About.com, 5 Mar. 2014. Web. 14 Oct. 2014.</li>
-					<li>"What Were Some Important New Technologies during the 1900-1939,1940-1969,1970-1999 Era's?" Yahoo! Answers. Yahoo! Web. 14 Oct. 2014.</li>
+					<li>"What Were Some Important New Technologies during the 1900-1939,1940-1969,1970-1999 Era's?" Yahoo! Answers. Yahoo! Web. 14 Oct. 2014.</li>
 					<H1>1970-99</H1>
-					<li>"1990s Events You Should Know About." About. Web. 20 Oct. 2014.</li>
-					<li>"Robert Cailliau." Wikipedia. Wikimedia Foundation, 18 Oct. 2014. Web. 20 Oct. 2014. <http://en.wikipedia.org/wiki/Robert_Cailliau>.</li>
+					<li>"1990s Events You Should Know About." About. Web. 20 Oct. 2014.</li>
+					<li>"Robert Cailliau." Wikipedia. Wikimedia Foundation, 18 Oct. 2014. Web. 20 Oct. 2014. <http://en.wikipedia.org/wiki/Robert_Cailliau>.</li>
 					<H1>Webpage</H1>
 					<li>Help with the java for the transitions between tabs came from a programing buddy of mine {[Codnchips_67]}</li>
 					<li>"About W3Schools." About W3Schools. Web. 9 Dec. 2014. <http://www.w3schools.com/about/default.asp>.</li>
