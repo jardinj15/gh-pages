@@ -1,5 +1,6 @@
 body {
-    background-image: url("http://i.imgur.com/oKbkoMl.gif");
+    background-image: url("http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/bg.pngf");
+    background-size: cover;
 }
 
 p {
@@ -58,10 +59,10 @@ li.active a, li.active a:hover {
 
 .menu {
     background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
-    left: -285px;  /* start off behind the scenes */
-    height: 100%;
-    position: fixed;
-    width: 285px;
+  left: -285px;  /* start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  width: 285px;
 }
 
 .menu ul {
