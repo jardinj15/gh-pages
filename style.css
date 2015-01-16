@@ -120,7 +120,7 @@ li.active a, li.active a:hover {
     left: -300px;
     position: fixed;
 
-    background-color: black;
+    background-image: url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png');
     height: 100%;
 }
 
